@@ -30,6 +30,7 @@ class Index extends Component {
     return (
       <div id="app">
         <Head>
+          <title>HipsterPrices</title>
           <link
             href="https://fonts.googleapis.com/css?family=Open+Sans"
             rel="stylesheet"

@@ -1,14 +1,12 @@
 {
-  "name": "example-next",
+  "name": "hipster-prices",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "HipsterPrices",
   "scripts": {
-    "start": "npm run start:prod",
-    "start:dev": "next",
-    "start:prod": "next start",
+    "dev": "next",
+    "start": "next start",
     "build": "next build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "now --public"
   },
   "repository": {
     "type": "git",
